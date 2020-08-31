@@ -1,0 +1,5 @@
+docker build -t golang .
+
+docker run  -d --name golang -p 8080:8080 golang
+
+curl localhost:8080 |more

@@ -1,0 +1,5 @@
+docker build -t js .
+
+docker run  -d --name js -p 8080:8080 js
+
+curl localhost:8080 |more

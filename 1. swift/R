@@ -1,0 +1,4 @@
+docker build -t vapor-image .
+docker run --name vapor-server -p 8080:8080 vapor-image
+
+curl localhost:8080/hello

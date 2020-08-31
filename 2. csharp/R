@@ -1,0 +1,5 @@
+docker build -t csharp .
+
+docker run  -d --name csharp -p 80:80 csharp
+
+curl localhost:80 |more
