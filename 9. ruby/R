@@ -1,0 +1,5 @@
+docker build -t rubyapp .
+
+docker run  -d --name rubyapp -p 80:3000 rubyapp
+
+curl localhost |more

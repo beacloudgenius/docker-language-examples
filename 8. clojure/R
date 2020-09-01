@@ -1,0 +1,5 @@
+docker build -t cloapp .
+
+docker run  -d --name cloapp -p 80:3000 cloapp
+
+curl localhost |more

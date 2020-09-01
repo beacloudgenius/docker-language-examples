@@ -1,0 +1,5 @@
+docker build -t erlangapp .
+
+docker run  -d --name erlangapp -p 80:8080 erlangapp
+
+curl localhost |more
