@@ -1,0 +1,5 @@
+docker build -t javaapp .
+
+docker run  -d --name javaapp -p 80:4567 javaapp
+
+curl localhost |more
